@@ -1,0 +1,239 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: black;
+    transition-duration:1s;
+}
+
+.all-container {
+    background: white;
+    height: 80%;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.contain {
+    width: 50%;
+}
+
+.container {
+    /* border:2px solid black; */
+    background: rgb(218, 212, 212);
+    height: 7px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.progress {
+    width: 0px;
+    height: 7px;
+    background: red;
+    border-radius: 50px;
+}
+
+.animate-progress {
+    animation: abc 0.2s linear;
+}
+
+@keyframes abc {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 17%;
+    }
+}
+
+.animate-progress2 {
+    animation: xyz 0.2s linear;
+}
+
+@keyframes xyz {
+    from {
+        width: 17%;
+    }
+
+    to {
+        width: 34%;
+    }
+}
+
+.animate-progress3 {
+    animation: deg 0.2s linear;
+}
+
+@keyframes deg {
+    from {
+        width: 34%;
+    }
+
+    to {
+        width: 51%;
+    }
+}
+
+.animate-progress4 {
+    animation: place 0.2s linear;
+}
+
+@keyframes place {
+    from {
+        width: 51%;
+    }
+
+    to {
+        width: 68%;
+    }
+}
+
+.animate-progress5 {
+    animation: prg 0.2s linear;
+}
+
+@keyframes prg {
+    from {
+        width: 68%;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+
+.animate-progress6 {
+    animation: prog 0.2s linear;
+}
+
+@keyframes prog {
+    from {
+        width: 85%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.heading {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.h1 {
+    color: red;
+
+}
+
+.p {
+    color: rgb(146, 137, 137);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 1200px;
+    font-family: verdana;
+}
+
+.animate-form {
+    overflow: auto;
+    position: relative;
+}
+
+#form2 {
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    padding: 0px 30px;
+}
+
+.label {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.text {
+    width: 94%;
+    background: rgb(218, 212, 212);
+    border: 0px;
+    height: 20px;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: rgb(130, 122, 122);
+}
+
+.input {
+    width: 100%;
+    border: 0px;
+    color: rgb(130, 122, 122);
+    display: flex;
+    align-items: center;
+}
+
+.text2 {
+    width: 97%;
+    background: rgb(218, 212, 212);
+    border: 0px;
+    height: 20px;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: rgb(130, 122, 122);
+}
+
+select {
+    width: 600px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    background: rgb(218, 212, 212);
+    color: rgb(130, 122, 122);
+    border: 0px;
+}
+
+.input2 {
+    width: 100%;
+    border: 0px;
+    color: rgb(130, 122, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+td {
+    height: 30px;
+    width: 650px;
+    border-radius: 10px;
+    /* margin-right:100px; */
+    background: rgb(218, 212, 212);
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    background: red;
+    padding: 10px 60px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 15px;
+}

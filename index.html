@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="licence style.css">
+</head>
+
+<body>
+    <div class="contain">
+        <h1 style="text-align:center;font-family: verdana;color:white;">Driving Licence Renewal</h1>
+        <div class="all-container">
+            <div class="container">
+                <div class="progress"></div>
+            </div>
+            <div class="heading">
+                <h1 class="h1">Let's get started!</h1>
+                <p class="p">Add your details (As per your resistered records)</p>
+            </div>
+            <div class="form-container">
+                <form class="form">
+                    <div class="animate-form">
+                        <div class="form1">
+                            <label class="label">Name</label>
+                            <input class="text" oninput="progress()" type="text" value="Enter Name"
+                                onfocus="this.value=''" placeholder="Enter Name"><br><br>
+                            <label class="label">Nature of Driving licence</label><br>
+                            <div class="radio-container">
+                                <table class="input" cellspacing="10">
+                                    <tr>
+                                        <td><input class="radio" type="radio" name="gen">Private</td>
+                                        <td><input class="radio" type="radio" name="gen">Commercial</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <label class="label">Type of Previous Driving Licence</label><br>
+                            <div class="radio-container">
+                                <table class="input" cellspacing="10">
+                                    <tr>
+                                        <td><a href="#form2"><input class="radio" type="radio" name="lic"></a>Paper Driving Licence</td>
+                                        <td><input class="radio" type="radio" name="lic">Smart Driving Licence</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="form2">
+                            <label class="label">Place where Driving Licence was issued</label>
+                            <input class="text2" oninput="progress2()" type="text" value="Enter Place Name"
+                                onfocus="this.value=''" placeholder="Enter Place Name"><br><br>
+                            <label class="label">Issued Year of licence</label><br>
+                            <div class="radio-container">
+                                <div class="input2">
+                                    <select onchange="progress3()">
+                                        <option>Choose Issued year of Licence</option>
+                                        <option>2002</option>
+                                        <option>2001</option>
+                                        <option>2000</option>
+                                        <option>1999</option>
+                                        <option>1998</option>
+                                        <option>1997</option>
+                                        <option>1996</option>
+                                        <option>1995</option>
+                                        <option>1994</option>
+                                        <option>1993</option>
+                                        <option>1992</option>
+                                        <option>1991</option>
+                                    </select>
+                                </div>
+                            </div><br>
+                            <label class="label">Types of Previous Driving Licence</label><br>
+                            <div class="radio-container">
+                                <div class="input2">
+                                    <select onchange="progress4()">
+                                        <option>Choose Expired year of Licence</option>
+                                        <option>2002</option>
+                                        <option>2001</option>
+                                        <option>2000</option>
+                                        <option>1999</option>
+                                        <option>1998</option>
+                                        <option>1997</option>
+                                        <option>1996</option>
+                                        <option>1995</option>
+                                        <option>1994</option>
+                                        <option>1993</option>
+                                        <option>1992</option>
+                                        <option>1991</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button>Back</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="licence script.js"></script>
+</body>
+
+</html>
